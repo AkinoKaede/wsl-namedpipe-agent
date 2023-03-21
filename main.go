@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	path = flag.String("path", "", "Path of the named pipe")
+	path = flag.String("path", "\\\\.\\pipe\\openssh-ssh-agent", "Path of the named pipe")
 )
 
 func main() {
